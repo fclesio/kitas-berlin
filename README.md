@@ -15,6 +15,15 @@ Requirements
     $ pip3 install urllib3
     $ brew install geckodriver    
 
+Warning
+------------------------------
+According to your search parameters and location, maybe more than 500 results will appear and it will take a while to fetch all. In my case took more than 2 hours to fetch 672 results.
+
+This happens because the Kitas pages aren't simple HTML vanilla pages, but there's tons of JavaScript code contained, and it means that to scrap the information the page needs to be loaded with all elements and scrolled down.
+
+I'll put some [`multiprocessing`](https://docs.python.org/3/library/multiprocessing.html) in some moment in the future to speed it up, but for now, enjoy your baby time and wait. Recommended music during the wait: _[Helge Schneider - Marihuana ist nicht gut](https://www.youtube.com/watch?v=nIVYqnL9cvM)_
+
+
 Running Die kleine Ziege in your machine
 ------------------------------
 0) Download the entire repo in your machine and start a `jupyter notebook` instance inside of this folder;
