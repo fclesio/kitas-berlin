@@ -26,7 +26,7 @@ https://www.kita-navigator.berlin.de/einrichtungen?input=Arnold-Knoblauch-Ring%2
 
 4) Run the following command:
 
-    $ python3 ziege.py
+     `$ python3 ziege.py`
     
 5) The output will be two files (an excel file and a csv):
     `ziege.xlsx`
